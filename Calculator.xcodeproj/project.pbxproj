@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		791283BD1EB9AED10066FA75 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791283BC1EB9AED10066FA75 /* CalculatorBrain.swift */; };
 		791B9EBE1EB8686800E9EA29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791B9EBD1EB8686800E9EA29 /* AppDelegate.swift */; };
 		791B9EC01EB8686800E9EA29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791B9EBF1EB8686800E9EA29 /* ViewController.swift */; };
 		791B9EC31EB8686800E9EA29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791B9EC11EB8686800E9EA29 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		791283BC1EB9AED10066FA75 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		791B9EBA1EB8686800E9EA29 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		791B9EBD1EB8686800E9EA29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		791B9EBF1EB8686800E9EA29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				791B9EBD1EB8686800E9EA29 /* AppDelegate.swift */,
 				791B9EBF1EB8686800E9EA29 /* ViewController.swift */,
+				791283BC1EB9AED10066FA75 /* CalculatorBrain.swift */,
 				791B9EC11EB8686800E9EA29 /* Main.storyboard */,
 				791B9EC41EB8686800E9EA29 /* Assets.xcassets */,
 				791B9EC61EB8686800E9EA29 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791283BD1EB9AED10066FA75 /* CalculatorBrain.swift in Sources */,
 				791B9EC01EB8686800E9EA29 /* ViewController.swift in Sources */,
 				791B9EBE1EB8686800E9EA29 /* AppDelegate.swift in Sources */,
 			);
@@ -302,6 +306,7 @@
 				791B9ECE1EB8686800E9EA29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
